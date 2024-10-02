@@ -10,18 +10,30 @@ local scripts = {
     [13772394625] = "https://raw.githubusercontent.com/ossfr/BladeBall/main/Freemium.lua"
 }
 
-local scriptUrl = scripts[placeId]
-
-if scriptUrl then
+if placeId == 6516141723 then
     local success, result = pcall(function()
-        return loadstring(game:HttpGet(scriptUrl))()
+        return loadstring(game:HttpGet(scripts[6516141723]))()
     end)
-    
+
     if success then
-        print("Script loaded successfully!")
+        print("Doors script loaded successfully!")
     else
-        warn("Failed to load script: " .. tostring(result))
+        warn("Failed to load Doors script: " .. tostring(result))
     end
 else
-    warn("No script found for this game place ID.")
+    local scriptUrl = scripts[placeId]
+
+    if scriptUrl then
+        local success, result = pcall(function()
+            return loadstring(game:HttpGet(scriptUrl))()
+        end)
+        
+        if success then
+            print("Script loaded successfully!")
+        else
+            warn("Failed to load script: " .. tostring(result))
+        end
+    else
+        warn("No script found for this game place ID.")
+    end
 end

@@ -7,7 +7,7 @@ local scripts = {
     [142823291] = "https://raw.githubusercontent.com/ossfr/MM2/refs/heads/main/Released",
     [6516141723] = "https://raw.githubusercontent.com/ossfr/Doors/refs/heads/main/Release",
     [2512643572] = "https://raw.githubusercontent.com/ossfr/BGS/main/Released",
-    [13772394625] = "https://raw.githubusercontent.com/ossfr/BladeBall/main/Freemium.lua"
+    [13772394625] = "https://raw.githubusercontent.com/ossfr/BladeBall/refs/heads/main/Freemium.lua"
 }
 
 if placeId == 6516141723 then

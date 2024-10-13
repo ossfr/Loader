@@ -3,7 +3,7 @@ local placeId = game.PlaceId
 print("Current Place ID: " .. placeId)
 
 local scripts = {
-    [286090429] = "https://raw.githubusercontent.com/ossfr/OSSV9/refs/heads/main/Released.lua",
+    [286090429] = "https://raw.githubusercontent.com/ossfr/OSSV9/refs/heads/main/Main.lua",
     [1962086868] = "https://raw.githubusercontent.com/ossfr/TOH/refs/heads/main/Released",
     [142823291] = "https://raw.githubusercontent.com/ossfr/MM2/refs/heads/main/Released",
     [6839171747] = "https://raw.githubusercontent.com/ossfr/Doors/refs/heads/main/Release",

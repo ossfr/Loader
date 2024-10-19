@@ -8,7 +8,8 @@ local scripts = {
     [142823291] = "https://raw.githubusercontent.com/ossfr/MM2/refs/heads/main/Released",
     [6839171747] = "https://raw.githubusercontent.com/ossfr/Doors/refs/heads/main/Release",
     [2512643572] = "https://raw.githubusercontent.com/ossfr/BGS/main/Released",
-    [10449761463] = "https://raw.githubusercontent.com/ossfr/tsb/refs/heads/main/released.lua"
+    [10449761463] = "https://raw.githubusercontent.com/ossfr/tsb/refs/heads/main/released.lua",
+    [1628100371] = "https://raw.githubusercontent.com/ossfr/BladeBall/refs/heads/main/Freemium.lua"
 }
 
 local scriptUrl = scripts[placeId]
